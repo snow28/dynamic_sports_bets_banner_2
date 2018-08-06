@@ -1,0 +1,229 @@
+.banner
+  overflow: hidden
+  color: black
+  width: 728px
+  height: 90px
+  background-image: url(../assets/bg.jpg)
+  background-position: center
+  background-repeat: no-repeat
+  background-size: cover
+  display: flex
+  justify-content: center
+  align-items: center
+  flex-direction: column
+  a
+    text-decoration: none !important
+  &-18
+    color: white
+    text-decoration: none
+  &-russia
+    display: none
+  &-inner
+    margin-top: -15px
+    width: 100%
+    height: 51px
+    color: white
+    font-weight: 600
+    display: flex
+    justify-content: center
+  &-rates
+    display: flex
+    width: 265px
+    justify-content: center
+    align-items: center
+    div
+      width: 48px
+      height: 51px
+      margin-left: 5px
+      margin-right: 5px
+      display: flex
+      justify-content: center
+      align-items: center
+      flex-direction: column
+      font-size: 22px
+      span
+        width: 100%
+        display: flex
+        height: 100%
+        justify-content: center
+        align-items: center
+        flex-direction: column
+        transition-duration: 0.2s
+        &:hover
+          transform: scale(1.65)
+          z-index: 999
+          //box-shadow: 7px 10px 17px -4px rgba(0,0,0,0.35)
+      p
+        margin: 0
+    .wrapper
+      position: relative
+      width: 80px
+      height: 42px
+      border: 2px solid white
+      background-color: rgba(255,255,255,0.3)
+      &:hover
+        background-color: rgba(255,255,255,0.50)
+      div
+        height: 100%
+        width: 48px
+        z-index: 990
+        transition-duration: 0.5s
+        position: absolute
+        padding-right: 9px
+        p
+          font-size: 15px
+        p:last-child
+          transition-duration: 0.4s
+      div:nth-child(2)
+        margin-top: 80px
+      div:last-child
+        margin-top: 80px
+
+  &-right,&-left
+    text-transform: uppercase
+    font-size: 28px
+    width: 195px
+    display: flex
+    justify-content: center
+    align-items: center
+    transition-duration: 0.55s
+    &:hover
+      //box-shadow: inset -195px 0 0 0 white
+  &-player
+    display: flex
+    flex-direction: column
+    //overflow: hidden
+    position: relative
+    span
+      background-color: white
+      width: 100%
+      height: 100%
+      position: relative
+      left: 100%
+      transition-duration: 0.5s
+    p
+      width: 100%
+      text-align: center
+      transition-duration: 0.5s
+      margin: 0px
+      margin-left: 2px
+      position: absolute
+      z-index: 999
+      font-size: 20px
+      &:hover
+        transform: scale(1.30) !important
+        z-index: 999
+        text-shadow: 2px 2px black
+      &:first-child
+        margin-top: -80px
+      &:nth-child(2)
+        margin-top: -80px
+  &-rateHeaders
+    position: absolute
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 265px
+    p
+      color: white
+      font-weight: bold
+      font-size: 15px
+      width: 80px
+      margin-left: 5px
+      margin-right: 5px
+      text-align: center
+      margin-bottom: -45px
+
+
+@media only screen and (max-width: 727px) and (min-width: 468px)
+  .banner
+    width: 470px
+    height: 60px
+    background-image: url(../assets/middle-bg.jpg)
+    &-rates
+      width: 200px
+      div>span:hover
+        transform: scale(1.35)
+    &-right,&-left
+      width: 120px
+    &-rateHeaders
+      margin-top: -10px
+      p
+        font-size: 11px
+        width: 55px
+    .wrapper
+      height: 25px
+      width: 50px
+      p
+        font-size: 13px
+      span
+        font-size: 10.5px
+      div
+        height: 35px
+    &-inner
+      height: 35px
+      width: 100%
+      margin-top: -13px
+    &-player
+      p
+        font-size: 18px
+
+
+@media only screen and (max-width: 467px)
+  .banner
+    &-russia
+      display: block
+      position: absolute
+      margin-top: -80px
+    &-inner
+      background-color: rgba(0,0,0,0)
+      border: none
+      display: block
+    &-rates
+      padding-top: 5px
+      padding-bottom: 5px
+      overflow: hidden
+      margin: auto
+      margin-top: 30px
+    &-player
+      p
+        width: 300px
+        margin-left: 0
+    height: 250px
+    width: 300px
+    background-image: url(../assets/small-bg.jpg)
+    &-left
+      margin-top: -40px
+    &-right
+      margin-top: -95px
+    &-left,&-right
+      width: 300px
+      position: absolute
+      overflow: hidden
+      height: 35px
+    &-rateHeaders
+      width: 300px
+      margin-top: 40px
+
+
+
+
+@media only screen and (max-width: 300px)
+  .banner
+    width: 250px
+    .wrapper
+      width: 60px
+    &-left,&-right
+      width: 250px
+    &-player
+      p
+        width: 250px
+    &-rates
+      width: 250px
+    &-rateHeaders
+      width: 250px
+      p
+        width: 64px
+
+
+

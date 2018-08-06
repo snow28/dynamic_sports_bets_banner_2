@@ -1,0 +1,72 @@
+@import "banner"
+
+
+body
+  overflow: hidden
+  width: 100vw
+  max-width: 100vw
+
+.content-wrapper
+  text-decoration: none !important
+  width: 100vw
+  height: 100vh
+  display: flex
+  justify-content: center
+  align-items: center
+  font-family: 'Open Sans Condensed', sans-serif
+//font-family: 'Teko', sans-serif
+
+
+
+
+
+
+
+
+
+
+.anim-country
+  animation: countryNameStart 0.5s ease 1 alternate forwards
+
+.anim-country-end
+  animation: countryNameEnd 0.5s ease 1 alternate forwards
+
+.moment
+  transition-duration: 0s !important
+  opacity: 0 !important
+
+@keyframes animation
+  0%
+    margin-top: -80px
+  50%
+    margin-top: 12px
+  100%
+    margin-top: 0px
+
+.anim
+  animation: animation 1s ease 1 alternate
+
+@keyframes animRates
+  0%
+    margin-top: 80px
+  50%
+    margin-top: -11px
+  100%
+    margin-top: 0px
+
+@keyframes countryNameStart
+  0%
+    box-shadow: inset 0px 0 0 0 white
+  100%
+    box-shadow: inset -195px 0 0 0 white
+
+@keyframes countryNameEnd
+  0%
+    box-shadow: inset 195px 0 0 0 white
+  100%
+    box-shadow: inset 0px 0 0 0 white
+
+
+
+.animRates
+  animation: animRates 1s ease 1 alternate

@@ -1,0 +1,374 @@
+.banner {
+  overflow: hidden;
+  color: black;
+  width: 728px;
+  height: 90px;
+  background-image: url(../assets/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  .banner a {
+    text-decoration: none !important; }
+  .banner-18 {
+    color: white;
+    text-decoration: none; }
+  .banner-russia {
+    display: none; }
+  .banner-inner {
+    margin-top: -15px;
+    width: 100%;
+    height: 51px;
+    color: white;
+    font-weight: 600;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .banner-rates {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 265px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .banner-rates div {
+      width: 48px;
+      height: 51px;
+      margin-left: 5px;
+      margin-right: 5px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      font-size: 22px; }
+      .banner-rates div span {
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        height: 100%;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-transition-duration: 0.2s;
+                transition-duration: 0.2s; }
+        .banner-rates div span:hover {
+          -webkit-transform: scale(1.65);
+                  transform: scale(1.65);
+          z-index: 999; }
+      .banner-rates div p {
+        margin: 0; }
+    .banner-rates .wrapper {
+      position: relative;
+      width: 80px;
+      height: 42px;
+      border: 2px solid white;
+      background-color: rgba(255, 255, 255, 0.3); }
+      .banner-rates .wrapper:hover {
+        background-color: rgba(255, 255, 255, 0.5); }
+      .banner-rates .wrapper div {
+        height: 100%;
+        width: 48px;
+        z-index: 990;
+        -webkit-transition-duration: 0.5s;
+                transition-duration: 0.5s;
+        position: absolute;
+        padding-right: 9px; }
+        .banner-rates .wrapper div p {
+          font-size: 15px; }
+        .banner-rates .wrapper div p:last-child {
+          -webkit-transition-duration: 0.4s;
+                  transition-duration: 0.4s; }
+      .banner-rates .wrapper div:nth-child(2) {
+        margin-top: 80px; }
+      .banner-rates .wrapper div:last-child {
+        margin-top: 80px; }
+  .banner-right, .banner-left {
+    text-transform: uppercase;
+    font-size: 28px;
+    width: 195px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transition-duration: 0.55s;
+            transition-duration: 0.55s; }
+  .banner-player {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative; }
+    .banner-player span {
+      background-color: white;
+      width: 100%;
+      height: 100%;
+      position: relative;
+      left: 100%;
+      -webkit-transition-duration: 0.5s;
+              transition-duration: 0.5s; }
+    .banner-player p {
+      width: 100%;
+      text-align: center;
+      -webkit-transition-duration: 0.5s;
+              transition-duration: 0.5s;
+      margin: 0px;
+      margin-left: 2px;
+      position: absolute;
+      z-index: 999;
+      font-size: 20px; }
+      .banner-player p:hover {
+        -webkit-transform: scale(1.3) !important;
+                transform: scale(1.3) !important;
+        z-index: 999;
+        text-shadow: 2px 2px black; }
+      .banner-player p:first-child {
+        margin-top: -80px; }
+      .banner-player p:nth-child(2) {
+        margin-top: -80px; }
+  .banner-rateHeaders {
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 265px; }
+    .banner-rateHeaders p {
+      color: white;
+      font-weight: bold;
+      font-size: 15px;
+      width: 80px;
+      margin-left: 5px;
+      margin-right: 5px;
+      text-align: center;
+      margin-bottom: -45px; }
+
+@media only screen and (max-width: 727px) and (min-width: 468px) {
+  .banner {
+    width: 470px;
+    height: 60px;
+    background-image: url(../assets/middle-bg.jpg); }
+    .banner-rates {
+      width: 200px; }
+      .banner-rates div > span:hover {
+        -webkit-transform: scale(1.35);
+                transform: scale(1.35); }
+    .banner-right, .banner-left {
+      width: 120px; }
+    .banner-rateHeaders {
+      margin-top: -10px; }
+      .banner-rateHeaders p {
+        font-size: 11px;
+        width: 55px; }
+    .banner .wrapper {
+      height: 25px;
+      width: 50px; }
+      .banner .wrapper p {
+        font-size: 13px; }
+      .banner .wrapper span {
+        font-size: 10.5px; }
+      .banner .wrapper div {
+        height: 35px; }
+    .banner-inner {
+      height: 35px;
+      width: 100%;
+      margin-top: -13px; }
+    .banner-player p {
+      font-size: 18px; } }
+@media only screen and (max-width: 467px) {
+  .banner {
+    height: 250px;
+    width: 300px;
+    background-image: url(../assets/small-bg.jpg); }
+    .banner-russia {
+      display: block;
+      position: absolute;
+      margin-top: -80px; }
+    .banner-inner {
+      background-color: rgba(0, 0, 0, 0);
+      border: none;
+      display: block; }
+    .banner-rates {
+      padding-top: 5px;
+      padding-bottom: 5px;
+      overflow: hidden;
+      margin: auto;
+      margin-top: 30px; }
+    .banner-player p {
+      width: 300px;
+      margin-left: 0; }
+    .banner-left {
+      margin-top: -40px; }
+    .banner-right {
+      margin-top: -95px; }
+    .banner-left, .banner-right {
+      width: 300px;
+      position: absolute;
+      overflow: hidden;
+      height: 35px; }
+    .banner-rateHeaders {
+      width: 300px;
+      margin-top: 40px; } }
+@media only screen and (max-width: 300px) {
+  .banner {
+    width: 250px; }
+    .banner .wrapper {
+      width: 60px; }
+    .banner-left, .banner-right {
+      width: 250px; }
+    .banner-player p {
+      width: 250px; }
+    .banner-rates {
+      width: 250px; }
+    .banner-rateHeaders {
+      width: 250px; }
+      .banner-rateHeaders p {
+        width: 64px; } }
+body {
+  overflow: hidden;
+  width: 100vw;
+  max-width: 100vw; }
+
+.content-wrapper {
+  text-decoration: none !important;
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Open Sans Condensed", sans-serif; }
+
+.anim-country {
+  -webkit-animation: countryNameStart 0.5s ease 1 alternate forwards;
+          animation: countryNameStart 0.5s ease 1 alternate forwards; }
+
+.anim-country-end {
+  -webkit-animation: countryNameEnd 0.5s ease 1 alternate forwards;
+          animation: countryNameEnd 0.5s ease 1 alternate forwards; }
+
+.moment {
+  -webkit-transition-duration: 0s !important;
+          transition-duration: 0s !important;
+  opacity: 0 !important; }
+
+@-webkit-keyframes animation {
+  0% {
+    margin-top: -80px; }
+  50% {
+    margin-top: 12px; }
+  100% {
+    margin-top: 0px; } }
+
+@keyframes animation {
+  0% {
+    margin-top: -80px; }
+  50% {
+    margin-top: 12px; }
+  100% {
+    margin-top: 0px; } }
+.anim {
+  -webkit-animation: animation 1s ease 1 alternate;
+          animation: animation 1s ease 1 alternate; }
+
+@-webkit-keyframes animRates {
+  0% {
+    margin-top: 80px; }
+  50% {
+    margin-top: -11px; }
+  100% {
+    margin-top: 0px; } }
+
+@keyframes animRates {
+  0% {
+    margin-top: 80px; }
+  50% {
+    margin-top: -11px; }
+  100% {
+    margin-top: 0px; } }
+@-webkit-keyframes countryNameStart {
+  0% {
+    -webkit-box-shadow: inset 0px 0 0 0 white;
+            box-shadow: inset 0px 0 0 0 white; }
+  100% {
+    -webkit-box-shadow: inset -195px 0 0 0 white;
+            box-shadow: inset -195px 0 0 0 white; } }
+@keyframes countryNameStart {
+  0% {
+    -webkit-box-shadow: inset 0px 0 0 0 white;
+            box-shadow: inset 0px 0 0 0 white; }
+  100% {
+    -webkit-box-shadow: inset -195px 0 0 0 white;
+            box-shadow: inset -195px 0 0 0 white; } }
+@-webkit-keyframes countryNameEnd {
+  0% {
+    -webkit-box-shadow: inset 195px 0 0 0 white;
+            box-shadow: inset 195px 0 0 0 white; }
+  100% {
+    -webkit-box-shadow: inset 0px 0 0 0 white;
+            box-shadow: inset 0px 0 0 0 white; } }
+@keyframes countryNameEnd {
+  0% {
+    -webkit-box-shadow: inset 195px 0 0 0 white;
+            box-shadow: inset 195px 0 0 0 white; }
+  100% {
+    -webkit-box-shadow: inset 0px 0 0 0 white;
+            box-shadow: inset 0px 0 0 0 white; } }
+.animRates {
+  -webkit-animation: animRates 1s ease 1 alternate;
+          animation: animRates 1s ease 1 alternate; }
+
+/*# sourceMappingURL=main.css.map */
